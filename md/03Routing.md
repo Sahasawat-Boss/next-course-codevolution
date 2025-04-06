@@ -25,3 +25,22 @@ Next is a file base routing system
   │   └── page.tsx
   │   └── [ProductId]
   │       └── page.tsx   
+
+```
+  const Products = async ({
+    params,
+}: {
+    params: { productId: string };
+}) => {
+    const productId = params.productId;
+
+    return (
+        <>
+            <h1>Product: {productId}</h1>
+        </>
+    );
+};
+export default Products;
+```
+---
+##Nested Dynamic Route
