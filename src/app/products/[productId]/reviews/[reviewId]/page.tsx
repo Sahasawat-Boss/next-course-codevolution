@@ -1,8 +1,6 @@
 //http://localhost:3000/products/test-product/reviews/1
 
-const ProductReview = async ({
-    params,
-}: {
+const ProductReview = async ({ params }: {
     params: { productId: string; reviewId: string };
 }) => {
     const { productId, reviewId } = params;
