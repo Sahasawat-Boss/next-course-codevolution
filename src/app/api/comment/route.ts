@@ -1,7 +1,3 @@
-# POST
-
-GET and POST
-```
 import { comments } from '../../comments/data';
 
 export async function GET() {
@@ -24,17 +20,7 @@ export async function POST(request: Request) {
     });
 }
 
-//http://localhost:3000/comments
-
-// For POST
-// {
-//     "text": "This is my comment"
-// }
-```
-
-GET and POST with try and Catch
-
-//import { comments } from '../../../comments/data';
+// import { comments } from '../../../comments/data';
 
 // export async function GET() {
 //     return Response.json(comments);
@@ -68,3 +54,17 @@ GET and POST with try and Catch
 //     }
 // }
 
+
+
+
+
+
+
+
+
+//http://localhost:3000/comments
+
+// For POST
+// {
+//     "text": "This is my comment"
+// }
